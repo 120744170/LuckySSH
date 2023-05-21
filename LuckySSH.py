@@ -93,7 +93,7 @@ def clean():
 
 # luckynumber() determins the amount of IP addresses to check:
 def luckynumber():
-    X = int(randint(666, 6666))
+    X = 100000
     return X
 
 # ipwriter() saves the random IPs to a file:
